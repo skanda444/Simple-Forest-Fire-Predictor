@@ -20,16 +20,19 @@ simple-forest-fire-predictor/
 │
 
 ├── models/
+
 │ ├── ridge.pkl # Trained Ridge Regression model
 │ └── scaler.pkl # StandardScaler used for input normalization
 │
 
 ├── templates/
+
 │ ├── index.html # Welcome page (says: "Welcome to the home page")
 │ └── home.html # Main input form for prediction
 │
 
 ├── notebooks/
+
 │ ├── FWI_Predictor.ipynb # Jupyter notebook used for model training and testing
 │ └── data.csv # Dataset used (or other reference materials)
 │
