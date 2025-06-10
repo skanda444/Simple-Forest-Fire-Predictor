@@ -1,41 +1,22 @@
-# Simple-Forest-Fire-Predictor
-A basic Flask web app that predicts the Forest Fire Weather Index (FWI) using a machine learning Ridge Regression model.
-Just input simple weather parameters and get an instant prediction of fire risk.
+🔥 Simple Forest Fire Predictor
+This is a web-based forest fire prediction application. You can input weather-related data and instantly get the Forest Fire Weather Index (FWI) using a trained machine learning model.
 
-🌐 Click here to use the live app
+🌐 Live Application
+You can access the live application here:
+👉 Launch Simple Forest Fire Predictor
 
-📌 Features
-Predict FWI (Fire Weather Index) using user input
+🛠️ How it Works
+Frontend: Built with HTML/CSS (no frameworks), served via Flask templates.
 
-Deployed with Render
+Backend: A Flask server using a Ridge Regression machine learning model trained on forest fire data.
 
-Clean UI with form-based inputs
+Deployment: Entire project deployed on Render.
 
-Lightweight and beginner-friendly structure
-## 📁 Project Structure
-simple-forest-fire-predictor/
-│
+✨ Features
+Input weather and environmental parameters like temperature, wind speed, etc.
 
-├── application.py # Main Flask app
-│
+Predicts Fire Weather Index (FWI) based on user inputs.
 
-├── models/
+Clean and simple UI for user interaction.
 
-│ ├── ridge.pkl # Trained Ridge Regression model
-│ └── scaler.pkl # StandardScaler used for input normalization
-│
-
-├── templates/
-
-│ ├── index.html # Welcome page (says: "Welcome to the home page")
-│ └── home.html # Main input form for prediction
-│
-
-├── notebooks/
-
-│ ├── FWI_Predictor.ipynb # Jupyter notebook used for model training and testing
-│ └── data.csv # Dataset used (or other reference materials)
-│
-
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+Model and scaler are saved and loaded using joblib.
