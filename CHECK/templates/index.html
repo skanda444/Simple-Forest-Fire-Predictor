@@ -1,1 +1,38 @@
-<h1>Welcome to the home page</h1>
+<html>
+  <head>
+    <title>FWI Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #fceabb, #f8b500);
+        color: #333;
+        text-align: center;
+        padding: 50px;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the homepage</h1>
+    <a href="{{ url_for('predict_datapoint') }}">
+      <button>Go to Prediction Page</button>
+    </a>
+  </body>
+</html>
