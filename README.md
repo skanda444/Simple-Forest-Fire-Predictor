@@ -1,5 +1,17 @@
 # Simple-Forest-Fire-Predictor
-A basic Flask web app that predicts the Forest Fire Weather Index (FWI) using a machine learning model. Enter simple weather parameters and get instant predictions.
+A basic Flask web app that predicts the Forest Fire Weather Index (FWI) using a machine learning Ridge Regression model.
+Just input simple weather parameters and get an instant prediction of fire risk.
+
+🌐 Click here to use the live app
+
+📌 Features
+Predict FWI (Fire Weather Index) using user input
+
+Deployed with Render
+
+Clean UI with form-based inputs
+
+Lightweight and beginner-friendly structure
 ## 📁 Project Structure
 simple-forest-fire-predictor/
 │
